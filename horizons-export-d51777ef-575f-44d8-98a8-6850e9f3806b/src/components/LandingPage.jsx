@@ -53,6 +53,11 @@ function LandingPage() {
             Descubre un enfoque personalizado para tu salud, combinando ciencia de datos, IA y el acompañamiento de expertos.
           </p>
           <div className="space-x-4">
+            <Link to="/register">
+              <Button size="lg" className="bg-white text-emerald-600 hover:bg-gray-100 transition-transform transform hover:scale-105 shadow-lg px-8 py-3 text-lg">
+                Registrate
+              </Button>
+            </Link>
             <Link to="/user-features">
               <Button size="lg" className="bg-white text-emerald-600 hover:bg-gray-100 transition-transform transform hover:scale-105 shadow-lg px-8 py-3 text-lg">
                 Comienza Ahora

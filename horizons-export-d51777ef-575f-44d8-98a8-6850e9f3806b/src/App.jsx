@@ -39,6 +39,7 @@ import React from "react";
     import RobinHealthInsights from "@/components/robin/RobinHealthInsights.jsx";
     import DisruptorsDatabase from "@/components/preferences/DisruptorsDatabase.jsx";
     import RobinControlPanel from "@/components/preferences/RobinControlPanel.jsx";
+    import RegisterForm from "@/components/auth/RegisterForm.jsx";
 
     function App() {
       return (
@@ -48,6 +49,7 @@ import React from "react";
               <Navbar />
               <Routes>
                 <Route path="/" element={<LandingPage />} />
+                <Route path="/register" element={<RegisterForm />} />
                 <Route path="/user-features" element={<UserFeatures />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/profile" element={<UserProfile />} />
